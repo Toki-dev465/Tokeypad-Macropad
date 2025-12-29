@@ -1,5 +1,5 @@
 # Description
-IBM Model M keyboard themed macropad with a rotary encoder for volume control, 6 keys and a 0.96 inch OLED display. 
+IBM Model M keyboard themed macropad with a rotary encoder for volume control, 6 keys and a 0.91 inch OLED display. 
 
 # Challenges
 It was my first ever electronics project. First time using KiCad, Fusion and QMK. I spent many hours just trying to figure out how to do something by Googling and watching tutorials on YouTube. I had to redesign my schematics, PCB and 3D model numerous times. 3D modeling was much harder than I anticipated at first. Even though I made many errors, I believe this shows my learning progress because you can't learn without making mistakes. 
