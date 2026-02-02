@@ -17,6 +17,6 @@ It was my first ever electronics project. First time using KiCad, Fusion and QMK
 
 | Schematic | PCB Design | 3D Model |
 | :---: | :---: | :---: |
-| <img src="PCB/Schematic2.png" width="400"> | <img src="PCB/PCB.png" width="400"> | <img src="CAD Model/full_case.png" width="400"> |
+| <img src="PCB/Schematic2.png" width="400"> | <img src="PCB/PCB.png" width="400"> | <img src="CAD Model/casefixed.png" width="400"> |
 | *Circuit Diagram* | *Top/Bottom Layers* | *Fusion 360 Render* |
 
