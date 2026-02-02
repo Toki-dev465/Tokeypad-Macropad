@@ -1,3 +1,6 @@
+# Important Note
+My PCB design has a slight error as the 5V on MC is connected to the VCC of OLED. I fixed this by physically cutting the trace and checking if the connection is severed using a multimeter. Then I soldered a wire at the back of the PCB going from VCC of OLED to 3.3V on MC. This fixed the error. Also I got lazy and didn't use an LED. It wasn't going to be of much use anyways. 
+
 # Description
 IBM Model M keyboard themed macropad with a rotary encoder for volume control, 6 keys and a 0.91 inch OLED display. 
 
