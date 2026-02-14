@@ -12,6 +12,10 @@ enum custom_keycodes {
 static uint16_t oled_timer = 0;
 static char oled_message[32] = "";
 
+oled_rotation_t oled_init_user(oled_rotation_t rotation) {
+    return OLED_ROTATION_180;
+}
+
 
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
@@ -37,7 +41,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 if (record->event.pressed) {
                     // Loop 10 times to close 10 apps
                     for (int i = 0; i < 10; i++) {
-                        tap_code16(SS_LALT(KC_F4)); 
+                        tap_code16(LALT(KC_F4)); 
                         wait_ms(250);         // Wait for apps to close
                     }
                 }
@@ -122,5 +126,6 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
         tap_code(KC_VOLD); 
         snprintf(oled_message, sizeof(oled_message), "Vol Down");
     }
-    return true;
+    return false;
+
 }
