@@ -2,7 +2,7 @@
   "manufacturer": "Toki",
   "keyboard_name": "tokeypad",
   "maintainer": "Toki",
-  "development_board": "promicro_rp2040",
+  "development_board": "seeed_xiao_rp2040",
   "diode_direction": "COL2ROW",
   "features": {
     "bootmagic": true,
@@ -12,19 +12,16 @@
     "oled": true,
     "encoder": true
   },
-    "matrix_pins": {
-        "direct": [
-            ["GP29", "GP0", "GP1"],
-            ["GP2", "GP4", "GP3"]
-    ]
-  },
-  "encoders": {
+  "direct_pins": [
+    ["GP29", "GP0", "GP1"],
+    ["GP2", "GP4", "GP3"]
+  ],
+  "encoder": {
     "rotary": [
       { "pin_a": "GP27", "pin_b": "GP28" }
     ]
   },
   "oled": {
-     
     "pin_sda": "GP6",
     "pin_scl": "GP7"
   },
@@ -33,7 +30,7 @@
     "pid": "0x0001",
     "vid": "0xFEED"
   },
- "layouts": {
+  "layouts": {
     "LAYOUT": {
       "layout": [
         { "matrix": [0, 0], "label": "K1", "x": 0, "y": 0 },
