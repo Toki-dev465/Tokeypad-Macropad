@@ -1,6 +1,5 @@
 # Important Note
-My PCB design has a slight error as the 5V on MC is connected to the VCC of OLED. Using 5V may or may not work. It could potentially damage the microcontroller and the OLED. I had trouble flashing QMK. Hence, I moved to CircuitPython and KMK. 
-
+My PCB design has a slight error as the 5V on MC is connected to the VCC of OLED. Using 5V may or may not work. It could potentially damage the microcontroller and the OLED. Flashing QMK is a big pain hence I also made CircuitPython KMK firmware. Will definitely try the QMK firmware when I have time. 
 # Description
 IBM Model M keyboard themed macropad with a rotary encoder for volume control, 6 keys and a 0.91 inch OLED display. 
 
